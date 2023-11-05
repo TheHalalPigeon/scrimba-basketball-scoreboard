@@ -1,0 +1,54 @@
+@font-face {
+    font-family: normalFont;
+    src: url("fonts/VerdanaBold.ttf");
+}
+
+@font-face {
+    font-family: pixelFont;
+    src: url("fonts/CursedTimer.ttf");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1d3557;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-family: normalFont;
+}
+
+.item {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    text-align: center;
+}
+
+.counter {
+    font-family: pixelFont;
+    font-size: 75px;
+    background-color: black;
+    color: #ff477e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+button {
+    font-family: pixelFont;
+    background-color: #1d3557;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
